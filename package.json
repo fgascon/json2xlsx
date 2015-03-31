@@ -1,0 +1,29 @@
+{
+  "name": "json2xlsx",
+  "version": "0.0.0",
+  "description": "Convert JSON to Excel (.xlsx)",
+  "main": "index.js",
+  "bin": {
+    "json2xlsx": "bin/json2xlsx.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fgascon/json2xlsx.git"
+  },
+  "keywords": [
+    "json",
+    "excel",
+    "xlsx",
+    "convert"
+  ],
+  "author": "fgascon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fgascon/json2xlsx/issues"
+  },
+  "homepage": "https://github.com/fgascon/json2xlsx",
+  "dependencies": {
+    "node-xlsx": "^0.5.1",
+    "through": "^2.3.6"
+  }
+}
